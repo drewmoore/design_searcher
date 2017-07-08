@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/drewmoore/design_searcher.svg?branch=master)](https://travis-ci.org/drewmoore/design_searcher)
+
 # Design Searcher
 A simple react/redux project for searching for fabric designs.
 
