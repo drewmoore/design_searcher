@@ -1,0 +1,91 @@
+{
+  "total_hits": 23922,
+  "results": [
+    {
+      "id": 6406442,
+      "name": "Abstract deep blue",
+      "for_sale": true,
+      "for_sale_as_fabric": true,
+      "for_sale_as_wallpaper": true,
+      "for_sale_as_gift_wrap": true,
+      "short_description": null,
+      "slug": "6406442-abstract-deep-blue-by-selmacardoso",
+      "thumbnail_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0640/6442/rSC_Abstract02gold_1800_150_shop_thumb.png",
+      "num_favorites": 209,
+      "tags": [
+        "blue",
+        "gold",
+        "abstract",
+        "watercolor",
+        "ocean",
+        "lake",
+        "lined",
+        "skillshare whimsical watercolor abstract"
+      ],
+      "fabric_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0640/6442/rSC_Abstract02gold_1800_150_comment_801099_preview.png",
+      "project_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0640/6442/rSC_Abstract02gold_1800_150_comment_781846_preview.png",
+      "user": {
+        "screen_name": "selmacardoso",
+        "first_name": "Selma",
+        "last_name": "Cardoso"
+      }
+    },
+    {
+      "id": 6375253,
+      "name": "Under The Sea - Nautical Mermaid Watercolor Blue",
+      "for_sale": true,
+      "for_sale_as_fabric": true,
+      "for_sale_as_wallpaper": true,
+      "for_sale_as_gift_wrap": true,
+      "short_description": "Deep under the sea pretty mermaids swim along with all of their underwater friends. Solid color versions of this designs are avail in my shop",
+      "slug": "6375253-under-the-sea-nautical-mermaid-watercolor-blue-by-heatherdutton",
+      "thumbnail_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0637/5253/rUnder_The_Sea_Watercolor_Repeat_4C_Alt_Watercolor_Lyrd_150dpi_50_smlr_after_contest_350__shop_thumb.png",
+      "num_favorites": 223,
+      "tags": [
+        "blue",
+        "summer",
+        "watercolor",
+        "mermaids",
+        "ocean",
+        "nautical",
+        "mermaid",
+        "skillshare whimsical watercolor fantasy creatures"
+      ],
+      "fabric_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0637/5253/rUnder_The_Sea_Watercolor_Repeat_4C_Alt_Watercolor_Lyrd_150dpi_50_smlr_after_contest_350__comment_783556_preview.png",
+      "project_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0637/5253/rUnder_The_Sea_Watercolor_Repeat_4C_Alt_Watercolor_Lyrd_150dpi_50_smlr_after_contest_350__comment_783558_preview.png",
+      "user": {
+        "screen_name": "heatherdutton",
+        "first_name": "Hang Tight Studio",
+        "last_name": ""
+      }
+    },
+    {
+      "id": 2161974,
+      "name": "stacked",
+      "for_sale": true,
+      "for_sale_as_fabric": true,
+      "for_sale_as_wallpaper": true,
+      "for_sale_as_gift_wrap": true,
+      "short_description": null,
+      "slug": "2161974-stacked-by-holli_zollinger",
+      "thumbnail_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0216/1974/rrrstacked_shop_thumb.png",
+      "num_favorites": 2696,
+      "tags": [
+        "black",
+        "white",
+        "triangle",
+        "holli zollinger",
+        "grunge",
+        "distress",
+        "A473"
+      ],
+      "fabric_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0216/1974/rrrstacked_comment_560810_preview.png",
+      "project_image_url": "https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0216/1974/rrrstacked_comment_531067_preview.png",
+      "user": {
+        "screen_name": "holli_zollinger",
+        "first_name": "Holli",
+        "last_name": "Zollinger"
+      }
+    }
+  ]
+}

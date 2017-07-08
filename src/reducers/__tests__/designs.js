@@ -1,7 +1,11 @@
+import { stubFetch, restoreFetch } from '../../test_support/helpers';
 import store          from '../../store';
 import DesignsActions from '../../actions/designs';
 
 describe('Designs Reducer', () => {
+  beforeEach(() => { stubFetch(); });
+  afterEach(()  => { restoreFetch(); });
+
   describe('default', () => {
     let designs;
 

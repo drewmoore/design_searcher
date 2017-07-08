@@ -13,7 +13,7 @@ const fetchState = (state, action) => {
     case 'success':
       newState = {
         isFetching: false,
-        items:      action.items,
+        items:      action.results,
         error:      null
       };
       break;
