@@ -1,1 +1,7 @@
-document.getElementById('root').innerHTML = '<h1>Hola Mundo</h1>';
+import React    from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <h1>Servus, Welt</h1>,
+  document.getElementById('root')
+);

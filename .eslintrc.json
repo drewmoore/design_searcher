@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "import",
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "rules":   {
+    "key-spacing": [ "warn", { "align": "value" } ],
+    "no-multi-spaces": "off",
+    "comma-dangle": [ "warn", "only-multiline" ]
+  }
+}
