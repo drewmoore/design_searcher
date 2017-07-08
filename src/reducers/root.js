@@ -1,15 +1,5 @@
 import { combineReducers } from 'redux';
-
-const defaultState = {
-  message: 'Yo, World!'
-};
-
-const placeholder = (state = defaultState, action = {}) => {
-  switch (action.type) {
-    default:
-      return state;
-  }
-};
+import placeholder         from './placeholder';
 
 const root = combineReducers({ placeholder });
 
