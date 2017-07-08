@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --watch"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.1.0"
+  }
+}
