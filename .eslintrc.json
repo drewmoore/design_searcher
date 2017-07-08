@@ -11,6 +11,7 @@
   "rules":   {
     "key-spacing": [ "warn", { "align": "value" } ],
     "no-multi-spaces": "off",
-    "comma-dangle": [ "warn", "only-multiline" ]
+    "comma-dangle": [ "warn", "only-multiline" ],
+    "no-var": "error"
   }
 }

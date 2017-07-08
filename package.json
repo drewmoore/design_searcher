@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js --watch"
+    "build": "./node_modules/webpack/bin/webpack.js --watch",
+    "build-prod": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p --config webpack.prod.js --progress",
+    "lint": "./node_modules/eslint/bin/eslint.js ./src/*.js"
   },
   "dependencies": {
     "babel-core": "^6.25.0",
@@ -11,7 +13,8 @@
     "html-webpack-plugin": "^2.29.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "webpack": "^3.1.0"
+    "webpack": "^3.1.0",
+    "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^4.1.1",
