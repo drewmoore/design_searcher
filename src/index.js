@@ -1,7 +1,12 @@
-import React    from 'react';
-import ReactDOM from 'react-dom';
+import React        from 'react';
+import { render }   from 'react-dom';
+import { Provider } from 'react-redux';
+import store        from './store';
+import App          from './components/app';
 
-ReactDOM.render(
-  <h1>Servus, Welt</h1>,
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
