@@ -1,5 +1,7 @@
 const defaultState = {
-  message: 'Yo, World!'
+  items:      [],
+  isFetching: false,
+  error:      null
 };
 
 const placeholder = (state = defaultState, action = {}) => {

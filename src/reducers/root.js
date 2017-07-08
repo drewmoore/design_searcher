@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import placeholder         from './placeholder';
+import designs             from './designs';
 
-const root = combineReducers({ placeholder });
+const root = combineReducers({ designs });
 
 export default root;
