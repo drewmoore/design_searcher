@@ -14,11 +14,13 @@ const purchaseUrlFromProps = (substrate, props) => {
 const mapStateToProps = (state, ownProps) => ({
   firstName:       ownProps.user.first_name,
   lastName:        ownProps.user.last_name,
+  screenName:      ownProps.user.screen_name,
   thumbnailUrl:    ownProps.thumbnail_url,
   description:     ownProps.short_description,
   numFavorites:    ownProps.num_favorites,
   fabricImageUrl:  ownProps.fabric_image_url,
   projectImageUrl: ownProps.project_image_url,
+  tags:            ownProps.tags || [],
   fabricUrl:       purchaseUrlFromProps('fabric', ownProps),
   wallpaperUrl:    purchaseUrlFromProps('wallpaper', ownProps),
   giftWrapUrl:     purchaseUrlFromProps('gift_wrap', ownProps),

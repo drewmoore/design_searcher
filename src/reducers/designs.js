@@ -24,7 +24,7 @@ const fetchState = (state, action) => {
   return update(state, { $merge: newState });
 };
 
-const placeholder = (state = defaultState, action = {}) => {
+const designs = (state = defaultState, action = {}) => {
   switch (action.type) {
     case DesignsActions.FETCH_DESIGNS:
       return fetchState(state, action);
@@ -33,4 +33,4 @@ const placeholder = (state = defaultState, action = {}) => {
   }
 };
 
-export default placeholder;
+export default designs;

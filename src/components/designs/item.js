@@ -1,10 +1,22 @@
 import React from 'react';
 import PurchaseLink from './purchase_link';
 
-const DesignsItem = ({ name, firstName, lastName, thumbnailUrl, description, numFavorites, fabricImageUrl, projectImageUrl, fabricUrl, wallpaperUrl, giftWrapUrl, tags }) => (
+const DesignsItem = ({
+  name, firstName, lastName, screenName, thumbnailUrl, description, numFavorites,
+  fabricImageUrl, projectImageUrl, fabricUrl, wallpaperUrl, giftWrapUrl, tags
+}) => (
   <article>
     <h4>{name}</h4>
-    <div><em>by {firstName} {lastName}</em></div>
+    <div>
+      <em>by {firstName} {lastName} </em>
+      <span>
+        <a
+        href={`https://www.spoonflower.com/profiles/${screenName}`}
+        target="_blank" rel="noopener noreferrer">
+          {screenName}
+        </a>
+      </span>
+    </div>
     <img src={thumbnailUrl} alt="Design Thumbnail" />
     <div data-num-favorites={numFavorites}>{numFavorites}</div>
     <p>{description}</p>

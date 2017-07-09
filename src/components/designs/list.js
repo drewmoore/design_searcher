@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import deepEqual            from 'deep-equal';
 import DesignsItemContainer from '../../containers/designs/item';
 
 export default class DesignsList extends Component {
@@ -20,7 +21,13 @@ export default class DesignsList extends Component {
 
   componentWillMount() {
     if (!this.props.designs.length && !this.props.isFetching) {
-      this.props.fetch();
+      this.props.fetch(this.props.filters);
+    }
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (!deepEqual(this.props.filters, prevProps.filters)) {
+      this.props.fetch(this.props.filters);
     }
   }
 };
