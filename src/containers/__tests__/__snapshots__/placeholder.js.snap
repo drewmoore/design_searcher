@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`PlaceholderContainer DOM Snapshot matches snapshot 1`] = `
-<h1>
-  Yo, World!
-</h1>
-`;

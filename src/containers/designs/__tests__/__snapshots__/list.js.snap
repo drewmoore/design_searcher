@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesignsContainer DOM Snapshot matches snapshot 1`] = `
+<div>
+  <strong>
+    Please wait while we find designs ...
+  </strong>
+</div>
+`;

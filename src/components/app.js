@@ -1,9 +1,9 @@
-import React from 'react';
-import PlaceholderContainer from '../containers/placeholder';
+import React                from 'react';
+import DesignsListContainer from '../containers/designs/list';
 
-const App = ({ state }) => (
+const App = () => (
   <div>
-    <PlaceholderContainer />
+    <DesignsListContainer />
   </div>
 );
 
