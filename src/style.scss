@@ -1,0 +1,47 @@
+$eggshell: #ffffed;
+$garnet:   #73000A;
+
+body {
+  background-color: $eggshell;
+}
+
+.design-item {
+  @extend .padded-frame;
+  background-color: #fff;
+  @media (min-width: $screen-sm) {
+    min-height: 33em; // Aim for uniform height of content cells.
+  }
+}
+
+.fit-to-container {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.garnet {
+  color: $garnet;
+}
+
+// Adjust padding to place elements flush with bootstrap-padded elements.
+.matched-padding {
+  padding-bottom: 0.75em;
+  padding-top:    0.75em;
+}
+
+.padded-frame {
+  padding: 0.5em 0.75em;
+}
+
+.pad-top {
+  padding-top: 1.5em;
+}
+
+.tags-list {
+  li {
+    background-color: $gray-lighter;
+    border-radius:    $border-radius-base;
+    margin-bottom:    0.25em;
+    margin-right:     0.25em;
+    padding:          0.5em;
+  }
+}

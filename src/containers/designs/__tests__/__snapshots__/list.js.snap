@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DesignsContainer DOM Snapshot matches snapshot 1`] = `
-<div>
-  <strong>
-    Please wait while we find designs ...
-  </strong>
+<div
+  className="row pad-top"
+>
+  <div
+    className="col-xs-12 well text-center"
+  >
+    <strong>
+      Please wait while we find designs ...
+    </strong>
+  </div>
 </div>
 `;

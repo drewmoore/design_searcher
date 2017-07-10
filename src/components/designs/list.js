@@ -5,14 +5,18 @@ import DesignsItemContainer from '../../containers/designs/item';
 export default class DesignsList extends Component {
   render() {
     return (
-      <div>
+      <div className="row pad-top">
         {this.props.isFetching &&
-          <strong>Please wait while we find designs ...</strong>
+          <div className="col-xs-12 well text-center">
+            <strong>Please wait while we find designs ...</strong>
+          </div>
         }
         {this.props.error &&
-          <em>We're sorry, but there was an error retrieving designs.</em>
+          <div className="col-xs-12 well text-center">
+            <em className="alert">We're sorry, but there was an error retrieving designs.</em>
+          </div>
         }
-        {this.props.designs.map(design =>(
+        {!this.props.isFetching && this.props.designs.map(design =>(
           <DesignsItemContainer key={design.id} {...design} />
         ))}
       </div>
